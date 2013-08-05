@@ -171,7 +171,8 @@ public class PhoneGlobals extends ContextWrapper
     NotificationMgr notificationMgr;
     Ringer ringer;
     Blacklist blackList;
-    IBluetoothHeadsetPhone mBluetoothPhone;
+    /*IBluetoothHeadsetPhone mBluetoothPhone;*/
+    BluetoothHandsfree mBtHandsfree;
     PhoneInterfaceManager phoneMgr;
     CallManager mCM;
     int mBluetoothHeadsetState = BluetoothProfile.STATE_DISCONNECTED;
